@@ -139,9 +139,20 @@ textarea {
   }
 .grid_item{
     height: 300px;
-    background-color: grey;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .grid_item:hover {
-    background-color: silver;
     cursor: pointer;
+}
+.grid_item h1{
+    position: absolute;
+    color: white;
+}
+.grid_item img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }

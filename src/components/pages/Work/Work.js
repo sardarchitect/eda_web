@@ -18,6 +18,7 @@ export const Work = () => {
             rewarding projects share similar traits:
             <br />
             <br />
+          </p>
             <ul>
               <li>Shared vision for success</li>
               <li> Team building collaborative approach</li>
@@ -25,6 +26,7 @@ export const Work = () => {
               <li>Project leadership by firm principals</li>
             </ul>
             <br />
+            <p>
             Current and recent clients include the Michigan League of
             Conservation Voters, Ann Arbor DDA, Journey of Faith Christian
             Church, Haggerty Dental, Republic Parking Systems, Branch Line
@@ -34,11 +36,10 @@ export const Work = () => {
         <div className="work-grid">
           {projectList.map((project) => (
             <GridItem 
+              key={project.id}
+              id={project.id}
               title={project.title}
               thumbnail={project.thumbnail}
-              text={project.text}
-              year={project.year}
-              images={project.images}
               />
           ))}
         </div>
