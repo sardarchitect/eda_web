@@ -1,11 +1,11 @@
 import React from "react";
+import { PageBanner } from "../PageBanner";
 
 export const Home = () => {
   return (
     <div className="home">
-         <div className="page-banner">
-        <h1>Home</h1>
-      </div>
+      <PageBanner title="Home" />
+      <div className="content-body"></div>
     </div>
   );
 };
