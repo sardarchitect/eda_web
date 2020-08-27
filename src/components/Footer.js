@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer>
-      <div className="footer__wrapper">
         <ul>
           <li>
             <Link to="/about">About</Link>
@@ -17,7 +16,6 @@ export const Footer = () => {
           </li>
         </ul>
         <p> &#169;2020 | Edge Design Associates, Inc.</p>
-      </div>
     </footer>
   );
 };

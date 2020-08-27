@@ -6,6 +6,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
 }
 .app {
 
@@ -14,21 +15,27 @@ a {
     text-decoration: none;
     color: black;
 }
+.page-banner{
+    height: 300px;
+    background-color: grey;
+    padding: 35px 15px;
+    font-size: 2em;
+    color: white;
+}
 /* NAVIGATION */
 nav {
-    background-color: whitesmoke;
     height: 75px;
     display: flex;
     justify-content: center;
 }
 .nav__wrapper {
-    max-width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px
 }
 .logo {
-
+    font-size: 2em;
 }
 nav ul {
     list-style: none;
@@ -40,11 +47,11 @@ nav ul li {
 
 /* FOOTER */
 footer{
-    background-color: whitesmoke;
     height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 footer ul {
     list-style: none;
@@ -52,12 +59,47 @@ footer ul {
     justify-content: space-evenly;
 }
 footer ul li{
-
+    margin-left: 60px;
+}
+footer ul li:first-child{
+    margin: 0;
 }
 footer p {
     margin-top: 10px;
 }
+
 /* PAGE: HOME */
 .home {
-    height: 75vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* PAGE: ABOUT */
+.about{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* PAGE: CONTACT */
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* PAGE: WORK */
+.work{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.work-description{
+    padding: 35px 15px;
+}
+.work-description ul{
+    list-style: none;
+}
+.work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.work-grid_item-image{
+    background-color: grey;
+    height: 500px;
 }
