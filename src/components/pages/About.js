@@ -4,7 +4,7 @@ import { PageBanner } from "../PageBanner";
 export const About = () => {
   return (
     <div className="about">
-      <PageBanner title="About" />
+      <PageBanner title="About" img="https://picsum.photos/300/600?random=454"/>
       <div className="content-body">
         <div className="about-description">
           <h1>Context</h1>

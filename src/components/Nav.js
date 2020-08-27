@@ -6,7 +6,7 @@ export const Nav = () => {
     <nav>
       <div className="nav__wrapper">
         <h1 className="logo">
-          <Link to="/">Edge Design Associates</Link>
+          <Link to="/"><img src="/eda_logo.png" alt='logo' /></Link>
         </h1>
         <ul>
           <li>

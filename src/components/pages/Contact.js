@@ -4,7 +4,7 @@ import { PageBanner } from "../PageBanner";
 export const Contact = () => {
   return (
     <div className="contact">
-      <PageBanner title="Contact" />
+      <PageBanner title="Contact" img="https://picsum.photos/300/600?random=42" />
       <div className="content-body" id="contact-body">
         <div className="contact-info">
         <h1>Contact Info</h1>
@@ -18,15 +18,15 @@ export const Contact = () => {
         <div className="contact-form">
           <h1>Contact Us</h1>
           <form>
-            <label for="fullName">Full Name *</label>
+            <label htmlFor="fullName">Full Name *</label>
             <input required type="text" name="fullName"/>
-            <label for="companyName">Company Name</label>
+            <label htmlFor="companyName">Company Name</label>
             <input type="text" name="fullName"/>
-            <label  for="phoneNumber">Phone Number</label>
+            <label  htmlFor="phoneNumber">Phone Number</label>
             <input type="phone" name="phoneNumber"/>
-            <label  for="email">Email *</label>
+            <label  htmlFor="email">Email *</label>
             <input required type="email" name="email"/>
-            <label for="messageBody">Message *</label>
+            <label htmlFor="messageBody">Message *</label>
             <textarea wrap="off" required type="text" name="messageBody"/>
             <button type="submit">Send Message</button>
           </form>

@@ -6,7 +6,7 @@ import { projectList } from "./projectData";
 export const Work = () => {
   return (
     <div className="work">
-      <PageBanner title="Work" />
+      <PageBanner title="Work" img="https://picsum.photos/300/600?random=422" />
       <div className="content-body">
         <div className="work-description">
           <h1>Our work is realized by mission</h1>
