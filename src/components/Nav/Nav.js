@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './index.css';
 
 export const Nav = () => {
   return (
     <nav>
       <div className="nav__wrapper">
         <h1 className="logo">
-          <Link to="/"><img src="/eda_logo.png" alt='logo' /></Link>
+          <Link to="/"><img src="/eda_logo.png" alt='EDA logo' /></Link>
         </h1>
         <ul>
           <li>

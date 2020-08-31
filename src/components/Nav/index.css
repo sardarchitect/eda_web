@@ -1,0 +1,26 @@
+/* NAVIGATION */
+nav {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px grey;
+    margin-bottom: 50px;
+    font-size: 1.25em;
+    padding: 0 100px;
+}
+.nav__wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 100px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 40px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
-import { PageBanner } from "../PageBanner";
+import { PageBanner } from "../../Misc/PageBanner";
+import './index.css';
 
 export const Contact = () => {
   return (

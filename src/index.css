@@ -1,175 +1,21 @@
-/* GLOBAL */
+/* GLOBAL CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
     margin: 20px;
 }
 .app {
-
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
     color: black;
-}
-.page-banner{
-    margin-top: 50px;
-    height: 300px;
-    font-size: 1.25em;
-    color: white;
-    overflow: hidden;
-    display: flex;
-}
-.page-banner img{
-    width: 100%;
-    height: 1500px
-}
-.page-banner h1{
-    position: absolute;
-    padding: 35px 30px;
-}
-.content-body {
-    margin: 50px 0;
-}
-/* NAVIGATION */
-nav {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    border-bottom: solid 1px grey;
-}
-.nav__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px
-}
-.logo img {
-    height: 100px;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-}
-nav ul li {
-    margin-left: 40px;
-}
-
-/* FOOTER */
-footer{
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top: solid 1px grey;
-}
-footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer ul li{
-    margin-left: 60px;
-}
-footer ul li:first-child{
-    margin: 0;
-}
-footer p {
-    margin-top: 10px;
-}
-
-/* PAGE: HOME */
-.home {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-/* PAGE: ABOUT */
-.about{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.about-description{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-/* PAGE: CONTACT */
-.contact {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#contact-body {
-    display: flex;
-}
-.contact-info p{
-    font-size: 1.25em;
-}
-.contact-form{
-    flex-basis: 600px;
-    margin-left: 50px;
-}
-.contact-form form{
-    float: right;
-    width: 100%;
-}
-.contact-form input, textarea {
-    display: block;
-    width: 100%;
-}
-textarea {
-    overflow: auto;
-    resize: none;
-    height: 150px;
-}
-/* PAGE: WORK */
-.work{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.work-description{
-    margin-bottom: 25px;
-}
-.work-description ul{
-    list-style: none;
-}
-.work-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-@media only screen and (min-width: 900px) {
-    .work-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-.grid_item{
-    height: 300px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-}
-.grid_item:hover {
-    cursor: pointer;
-}
-.grid_item h1{
-    position: absolute;
-    color: white;
-}
-.grid_item img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-/* PROJECT PAGE */
-.project_page {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.project-description{
-    text-align:center;
 }

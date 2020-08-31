@@ -1,37 +1,16 @@
 import React from "react";
-import { PageBanner } from "../../PageBanner";
+import { PageBanner } from "../../Misc/PageBanner";
 import { GridItem } from "./GridItem";
-import { projectList } from "./projectData";
+import { projectList } from "../../../data";
+import './index.css';
 
 export const Work = () => {
   return (
     <div className="work">
       <PageBanner title="Work" img="https://picsum.photos/300/600?random=422" />
-      <div className="content-body">
+      <div className="work-wrapper">
         <div className="work-description">
-          <h1>Our work is realized by mission</h1>
-          <p>
-            Edge Design Associates provides architectural, planning and graphic
-            design services for commercial and institutional clients,
-            collaborating with other professionals as necessary to serve the
-            specific needs of our clients. Whatever the challenge, our most
-            rewarding projects share similar traits:
-            <br />
-            <br />
-          </p>
-            <ul>
-              <li>Shared vision for success</li>
-              <li> Team building collaborative approach</li>
-              <li>Enhanced value at each stage of developments</li>
-              <li>Project leadership by firm principals</li>
-            </ul>
-            <br />
-            <p>
-            Current and recent clients include the Michigan League of
-            Conservation Voters, Ann Arbor DDA, Journey of Faith Christian
-            Church, Haggerty Dental, Republic Parking Systems, Branch Line
-            School and Linear Mold and Engineering.
-          </p>
+          <h1><i>Our work is realized by mission</i></h1>
         </div>
         <div className="work-grid">
           {projectList.map((project) => (

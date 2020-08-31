@@ -1,9 +1,9 @@
 import React from "react";
+import './index.css';
 
-export const PageBanner = ({title, img}) => {
+export const PageBanner = ({title}) => {
   return (
     <div className="page-banner">
-      <img src={img} alt={title} />
       <h1>{title}</h1>
     </div>
   );
