@@ -24,3 +24,14 @@ nav ul {
 nav ul li {
     margin-left: 40px;
 }
+@media only screen and (max-width: 500px) {
+    nav ul {
+        display: none;
+    }
+  }
+a {
+    color: black !important;
+}
+.selected-link{
+    color: #ce2b2c !important;
+}

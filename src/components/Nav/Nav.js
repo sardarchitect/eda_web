@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './index.css';
 
 export const Nav = () => {
@@ -7,17 +7,17 @@ export const Nav = () => {
     <nav>
       <div className="nav__wrapper">
         <h1 className="logo">
-          <Link to="/"><img src="/eda_logo.png" alt='EDA logo' /></Link>
+          <NavLink to="/" activeClassName='selected-link'><img src="/eda_logo.png" alt='EDA logo' /></NavLink>
         </h1>
         <ul>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/about" activeClassName='selected-link'>About</NavLink>
           </li>
           <li>
-            <Link to="/work">Work</Link>
+            <NavLink to="/work" activeClassName='selected-link'>Work</NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact"activeClassName='selected-link'>Contact</NavLink>
           </li>
         </ul>
       </div>

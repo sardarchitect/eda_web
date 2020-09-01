@@ -1,10 +1,10 @@
 /* PAGE: ABOUT */
+h1 {
+    margin: 100px 0;
+}
 .about-wrapper{
     margin: 0 auto;
     max-width: 90%;
-}
-h1 {
-    margin: 100px 0;
 }
 .about-description{
     display: grid;
