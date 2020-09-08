@@ -22,7 +22,7 @@ export const PageBanner = ({ title }) => {
         setBgImg("");
         break;
     }
-  }, []);
+  }, [title]);
 
   return (
     <div className="page-banner">
