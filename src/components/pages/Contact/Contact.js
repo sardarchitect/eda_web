@@ -3,7 +3,7 @@ import { PageBanner } from "../../Misc/PageBanner";
 import "./index.css";
 
 import { Button } from "antd";
-import { Form, Input, InputNumber } from "antd";
+import { Form, Input } from "antd";
 
 export const Contact = () => {
   return (
@@ -90,7 +90,7 @@ const ContactForm = () => {
         <Input />
       </Form.Item>
 
-      <Form.Item name={["user", "introduction"]} label="Introduction">
+      <Form.Item name={["user", "message"]} label="Message">
         <Input.TextArea />
       </Form.Item>
 

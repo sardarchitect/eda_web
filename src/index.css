@@ -2,13 +2,7 @@
 @import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .app {
     font-family: 'Open Sans', sans-serif;
-    max-width: 95vw;
-    margin: 0 auto;
+    margin: 0 25px;
 }

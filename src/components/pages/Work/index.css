@@ -1,16 +1,24 @@
 /* PAGE: WORK */
+.work h1 {
+    margin: 100px 0;
+}
 .work-wrapper{
     margin: 0 auto;
     max-width: 90%;
 }
 .work-description{
     margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
+
 .work-description ul{
     list-style: none;
 }
 /* COMPONENT: GRID-ITEM */
 .work-grid {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;

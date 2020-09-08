@@ -9,6 +9,9 @@ footer{
     margin-top: 75px;
     position: relative;
 }
+footer a {
+    color: black !important;
+}
 footer ul {
     list-style: none;
     display: flex;
@@ -25,9 +28,9 @@ footer p {
 }
 .footer_contact {
     position: absolute;
-    left: 0;
+    left: 100px;
 }
 .footer_social {
     position: absolute;
-    right: 0;
+    right: 100px;
 }

@@ -2,9 +2,6 @@
 nav {
     height: 150px;
     display: flex;
-    justify-content: center;
-    border-bottom: solid 1px grey;
-    margin-bottom: 50px;
     font-size: 1.25em;
     padding: 0 100px;
 }
@@ -24,14 +21,14 @@ nav ul {
 nav ul li {
     margin-left: 40px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     nav ul {
-        display: none;
+        display: block;
     }
   }
-a {
+nav a {
     color: black !important;
 }
-.selected-link{
+.navlink__active{
     color: #ce2b2c !important;
 }
