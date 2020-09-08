@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import './index.css';
+import "./_Nav.scss";
 
 export const Nav = () => {
   const [collapsed, setCollapsed] = useState(false);

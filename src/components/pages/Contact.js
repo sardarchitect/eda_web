@@ -1,6 +1,6 @@
 import React from "react";
-import { PageBanner } from "../../Misc/PageBanner";
-import "./index.css";
+import { PageBanner } from "../PageBanner";
+import "./_Contact.scss";
 
 import { Button } from "antd";
 import { Form, Input } from "antd";

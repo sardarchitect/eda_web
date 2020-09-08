@@ -1,8 +1,8 @@
 import React from "react";
-import { PageBanner } from "../../Misc/PageBanner";
+import { PageBanner } from "../PageBanner";
 import { GridItem } from "./GridItem";
-import { projectList } from "../../../data";
-import "./index.css";
+import { projectList } from "../../data";
+import "./_Work.scss";
 
 export const Work = () => {
   return (

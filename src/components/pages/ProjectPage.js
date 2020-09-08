@@ -1,12 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { projectList } from "../../../data";
+import { projectList } from "../../data";
 import { Carousel } from "antd";
 
 export const ProjectPage = () => {
   const { id } = useParams();
   const currentProject = projectList.find((project) => project.id === id);
   console.log(currentProject);
+  
   const contentStyle = {
     height: "160px",
     color: "#fff",
@@ -14,6 +15,7 @@ export const ProjectPage = () => {
     textAlign: "center",
     background: "#364d79",
   };
+  
   return (
     <div className="project_page">
       <div className="content-body">

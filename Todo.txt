@@ -1,2 +1,0 @@
-1. Decrease the size of eda_logo.png and favicon.ico
-2. 

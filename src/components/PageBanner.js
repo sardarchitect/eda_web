@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./index.css";
+import "./_PageBanner.scss";
 
 export const PageBanner = ({ title }) => {
   const [bgImg, setBgImg] = useState(null);

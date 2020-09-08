@@ -1,13 +1,13 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { Nav } from "./components/Nav/Nav";
-import { Footer } from "./components/Footer/Footer";
-import { About } from "./components/pages/About/About";
-import { Work } from "./components/pages/Work/Work";
-import { Home } from "./components/pages/Home/Home";
-import { Contact } from "./components/pages/Contact/Contact";
-import { ProjectPage } from "./components/pages/ProjectPage/ProjectPage";
+import { Nav } from "./components/Nav";
+import { Footer } from "./components/Footer";
+import { About } from "./components/pages/About";
+import { Work } from "./components/pages/Work";
+import { Home } from "./components/pages/Home";
+import { Contact } from "./components/pages/Contact";
+import { ProjectPage } from "./components/pages/ProjectPage";
 
 export const App = () => {
   return (

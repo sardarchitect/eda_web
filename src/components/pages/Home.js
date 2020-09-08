@@ -1,7 +1,6 @@
 import React from "react";
-import { PageBanner } from "../../Misc/PageBanner";
-import './index.css';
-import './index.css';
+import { PageBanner } from "../PageBanner";
+import "./_Home.scss";
 
 export const Home = () => {
   return (

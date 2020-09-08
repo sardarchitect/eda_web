@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./index.css";
+import "./_Footer.scss";
 import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti";
 
 export const Footer = () => {

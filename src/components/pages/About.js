@@ -1,6 +1,6 @@
 import React from "react";
-import { PageBanner } from "../../Misc/PageBanner";
-import "./index.css";
+import { PageBanner } from "../PageBanner";
+import "./_About.scss";
 
 export const About = () => {
   return (
