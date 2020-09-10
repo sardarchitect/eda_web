@@ -6,21 +6,19 @@ footer{
     align-items: center;
     flex-direction: column;
     border-top: solid 1px grey;
-    margin-top: 75px;
+    margin-top: 150px;
     position: relative;
 
-     ul {
-        list-style: none;
+    .footer-nav {
         display: flex;
         justify-content: space-between;
         a {
             color: black !important;
         }
-        li:not(:first-child){
+        div:not(:first-child){
         margin-left: 60px;
     }
-    }
-     ul 
+    } 
      p {
         margin-top: 10px;
     }
@@ -31,6 +29,9 @@ footer{
     .footer_social {
         position: absolute;
         right: 100px;
+        a{
+            color: #ce2b2c !important;
+        }
     }
 }
 

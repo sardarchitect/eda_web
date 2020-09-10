@@ -1,8 +1,12 @@
 export const projectList = [
   {
-    title: "Project 1",
+    title: "Baker College - Royal Oak Campus",
     id: "1001",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info <br/>
+      More info <br />
+      `,
     year: 2020,
     images: [
       {
@@ -24,7 +28,11 @@ export const projectList = [
   {
     title: "Project 2",
     id: "1002",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -46,7 +54,11 @@ export const projectList = [
   {
     title: "Project 3",
     id: "1003",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -68,7 +80,11 @@ export const projectList = [
   {
     title: "Project 4",
     id: "1004",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -90,7 +106,11 @@ export const projectList = [
   {
     title: "Project 5",
     id: "1005",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -112,7 +132,11 @@ export const projectList = [
   {
     title: "Project 6",
     id: "1006",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -134,7 +158,11 @@ export const projectList = [
   {
     title: "Project 7",
     id: "1007",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -156,7 +184,11 @@ export const projectList = [
   {
     title: "Project 8",
     id: "1008",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {
@@ -178,7 +210,11 @@ export const projectList = [
   {
     title: "Project 9",
     id: "1009",
-    text: "This project was ........................",
+    text: `
+      Royal Oak, Michigan <br/>
+      More info </br>
+      More info </br>
+      `,
     year: 2020,
     images: [
       {

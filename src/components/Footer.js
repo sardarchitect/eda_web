@@ -6,17 +6,17 @@ import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti";
 export const Footer = () => {
   return (
     <footer>
-        <ul>
-          <li>
+        <div className="footer-nav">
+          <div>
             <Link to="/">About</Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link to="/work">Work</Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+          </div>
+        </div>
         <div className="footer_contact">
           24 Frank Lloyd Wright Drive <br /> Suite H1800 PO Box 533
           <br /> Ann Arbor MI 48106

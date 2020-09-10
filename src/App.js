@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { Nav } from "./components/Nav";
+import { Nav } from "./components/nav/Nav";
 import { Footer } from "./components/Footer";
 import { About } from "./components/pages/About";
 import { Work } from "./components/pages/Work";

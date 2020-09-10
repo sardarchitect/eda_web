@@ -7,7 +7,7 @@ export const About = () => {
     <div className="about">
       <PageBanner title="About Us" />
       <div className="about-wrapper">
-        <h1>Our History</h1>
+        <h1 className="section-heading">Our History</h1>
         <div className="about-description">
           <div>
             Edge Design Associates, Inc. was formed by Ron Thomas and Daniel P.
@@ -42,7 +42,7 @@ export const About = () => {
           </div>
         </div>
         <div className="about-staff">
-          <h1>Our Team</h1>
+          <h1 className="section-heading">Our Team</h1>
           <div className="about-staff-grid">
             <div className="staff-item-left">
               <div className="staff-photo"></div>

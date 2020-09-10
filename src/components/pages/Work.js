@@ -11,7 +11,7 @@ export const Work = () => {
     <div className="work">
       <PageBanner title="Work" img="https://picsum.photos/300/600?random=422" />
       <div className="work-wrapper">
-      <h1>Our Process</h1>
+      <h1 className="section-heading">Our Process</h1>
 
         <div className="work-description">
           <div>
