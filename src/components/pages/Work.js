@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { PageBanner } from "../PageBanner";
 import { GridItem } from "./GridItem";
 import { projectList } from "../../data";
 import "./_Work.scss";
+import { ProjectPage } from "./ProjectPage";
 
 export const Work = () => {
+  const [showProjectWithId, setShowProjectWithId] = useState(null);
   return (
     <div className="work">
       <PageBanner title="Work" img="https://picsum.photos/300/600?random=422" />
@@ -51,10 +53,19 @@ export const Work = () => {
               id={project.id}
               title={project.title}
               thumbnail={project.thumbnail}
+              setShowProjectWithId = {setShowProjectWithId}
             />
           ))}
         </div>
       </div>
+      {
+        showProjectWithId && (
+          <ProjectPage 
+            id={showProjectWithId}
+            setShowProjectWithId = {setShowProjectWithId}
+          />
+        )
+      }
     </div>
   );
 };

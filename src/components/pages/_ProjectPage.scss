@@ -1,12 +1,46 @@
 /* PROJECT PAGE */
-.project-page h1 {
-    margin: 100px 0;
+.project__page__wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
-.home h1 {
-    margin: 100px 0;
-}
-.home-wrapper {
-    margin: 0 auto;
-    max-width: 90%;
+.project__page {
+  position: relative;
+  background-color: white;
+  max-width: 800px;
+  margin-top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  .project__page__close {
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    font-size: 2em;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    padding: 15px;
+    z-index: 1;
+  }
+  .project__page__meta {
+    text-align: center;
+    h1 {
+      margin: 0 !important;
+    }
+  }
+  .carousel__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel__image img {
+    width: 100%;
+  }
 }

@@ -1,42 +1,33 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import { projectList } from "../../data";
+import "./_ProjectPage.scss";
 import { Carousel } from "antd";
 
-export const ProjectPage = () => {
-  const { id } = useParams();
+export const ProjectPage = ({ id, setShowProjectWithId }) => {
   const currentProject = projectList.find((project) => project.id === id);
   console.log(currentProject);
-  
-  const contentStyle = {
-    height: "160px",
-    color: "#fff",
-    lineHeight: "160px",
-    textAlign: "center",
-    background: "#364d79",
-  };
-  
+
   return (
-    <div className="project_page">
-      <div className="content-body">
-        <div className="project-description">
-          <h1> {currentProject.title}</h1>
-          <h2> {currentProject.year}</h2>
-          <p> {currentProject.text}</p>
+    <div
+      className="project__page__wrapper"
+    >
+      <div className="project__page">
+        <div className="project__page__close" onClick={()=>setShowProjectWithId(null)}>
+          <strong>X</strong>
         </div>
-        <div className="project-images">
-         
-        </div>
-        <div className="carousel">
+        <div className="project__page__gallery">
           <Carousel autoplay>
-          {
-          currentProject.images.map((img) => (
-            <div style={contentStyle}>
-            <img  src={img.address} alt={img.title} />
-            </div>
-          ))
-          }
+            {currentProject.images.map((img) => (
+              <div className="carousel__image">
+                <img key={img.title} alt={img.title} src={img.address} />
+              </div>
+            ))}
           </Carousel>
+        </div>
+        <div className="project__page__meta">
+          <h1>{currentProject.title}</h1>
+          <p>{currentProject.year}</p>
+          <p>{currentProject.text}</p>
         </div>
       </div>
     </div>

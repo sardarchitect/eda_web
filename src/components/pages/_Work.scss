@@ -1,49 +1,52 @@
 /* PAGE: WORK */
-.work h1 {
-    margin: 100px 0;
+.work-wrapper {
+  margin: 0 auto;
+  max-width: 90%;
 }
-.work-wrapper{
-    margin: 0 auto;
-    max-width: 90%;
-}
-.work-description{
-    margin-bottom: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+.work-description {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
-.work-description ul{
-    list-style: none;
+.work-description ul {
+  list-style: none;
 }
 /* COMPONENT: GRID-ITEM */
 .work-grid {
-    margin-top: 100px;
-    display: grid;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+@media only screen and (min-width: 600px) {
+  .work-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+  }
 }
 @media only screen and (min-width: 900px) {
-    .work-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  .work-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-.grid_item{
-    height: 300px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+}
+
+.grid_item {
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .grid_item:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-.grid_item h1{
-    position: absolute;
-    color: white;
+.grid_item h1 {
+  position: absolute;
+  color: white;
 }
-.grid_item img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+.grid_item img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

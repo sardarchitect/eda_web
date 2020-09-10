@@ -1,34 +1,89 @@
 /* NAVIGATION */
 nav {
+  display: flex;
+  .nav__wrapper {
     height: 150px;
-    display: flex;
     font-size: 1.25em;
-    padding: 0 100px;
-}
-.nav__wrapper {
-    flex: 1;
+    margin: 0 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.logo img {
-    height: 100px;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-}
-nav ul li {
-    margin-left: 40px;
-}
-@media only screen and (max-width: 650px) {
-    nav ul {
-        display: block;
+    .logo img {
+      height: 100px;
+    }
+    .ul__web {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      width: 300px;
+      justify-content: space-between;
+    }
+    a {
+      color: black !important;
+    }
+    .navlink__active {
+      color: #ce2b2c !important;
+    }
+    #toggleMenu{
+      display: none;
     }
   }
-nav a {
-    color: black !important;
 }
-.navlink__active{
-    color: #ce2b2c !important;
+.mobile__active, .mobile__inactive{
+  display: none;
 }
+@media only screen and (max-width: 650px) {
+  nav {
+    margin-top: 20px;
+    .nav__wrapper {
+      text-align: center;
+      margin: 0 20px;
+      .ul__web{
+        display: none;
+      }
+      #toggleMenu{
+        cursor: pointer;
+        display: block;
+        font-size: 2em;
+      }
+    }
+  }
+  .mobile__active, .mobile__inactive{
+    display: flex;
+    overflow: hidden;
+    transition: height 0.75s;
+    height: 175px;
+
+    ul{
+      margin: 0 auto;
+      max-width: 75vw;
+      display: block;
+      flex:1;
+      width: 100%;
+      padding: 25px;
+      text-align:center;
+      font-size: 1.5em;
+      border-bottom: solid black 1px;
+      li {
+        list-style: none;
+        margin: 5px;
+      }
+      a {
+        color: black !important;
+      }
+      .navlink__active {
+        color: #ce2b2c !important;
+      }
+      #toggleMenu{
+        display: none;
+      }
+    }
+  }
+  .mobile__inactive{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.75s;
+  }
+}
+  
