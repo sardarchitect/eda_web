@@ -15,11 +15,11 @@
             min-width: 80%;
             margin-bottom: 25px;
             iframe{
+                height: 400px;
                 min-height: 300px;
-                min-width: 100%;
+                min-width: 95%;
             }
         }
-       
         p{
             font-size: 1.25em;
         }
@@ -55,4 +55,10 @@
 @media only screen and (max-width: 1100px) {
     .contact-wrapper {
         grid-template-columns: 1fr;
-}}
+    }
+        .contact-form{
+        .section-heading{
+            margin-top: 10px !important;
+        }
+    }
+}
