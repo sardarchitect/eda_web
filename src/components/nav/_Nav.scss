@@ -25,12 +25,13 @@ nav {
     .navlink__active {
       color: #ce2b2c !important;
     }
-    #toggleMenu{
+    #toggleMenu {
       display: none;
     }
   }
 }
-.mobile__active, .mobile__inactive{
+.mobile__active,
+.mobile__inactive {
   display: none;
 }
 @media only screen and (max-width: 650px) {
@@ -39,30 +40,31 @@ nav {
     .nav__wrapper {
       text-align: center;
       margin: 0 20px;
-      .ul__web{
+      .ul__web {
         display: none;
       }
-      #toggleMenu{
+      #toggleMenu {
         cursor: pointer;
         display: block;
         font-size: 2em;
       }
     }
   }
-  .mobile__active, .mobile__inactive{
+  .mobile__active,
+  .mobile__inactive {
     display: flex;
     overflow: hidden;
-    transition: height 0.75s;
+    transition: height 0.3s;
     height: 175px;
 
-    ul{
+    ul {
       margin: 0 auto;
       max-width: 75vw;
       display: block;
-      flex:1;
+      flex: 1;
       width: 100%;
       padding: 25px;
-      text-align:center;
+      text-align: center;
       font-size: 1.5em;
       border-bottom: solid black 1px;
       li {
@@ -75,15 +77,14 @@ nav {
       .navlink__active {
         color: #ce2b2c !important;
       }
-      #toggleMenu{
+      #toggleMenu {
         display: none;
       }
     }
   }
-  .mobile__inactive{
+  .mobile__inactive {
     height: 0;
     overflow: hidden;
-    transition: height 0.75s;
+    transition: height 0.3s;
   }
 }
-  

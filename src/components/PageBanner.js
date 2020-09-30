@@ -1,22 +1,23 @@
 import React, { useState, useEffect } from "react";
 import "./_PageBanner.scss";
 
+import about from '../assets/img_banner/IMG_9722.jpg';
+import work from '../assets/img_banner/RoyalOak-1.jpg';
+import contact from '../assets/img_banner/DOT-Offices_2.jpg';
+
 export const PageBanner = ({ title }) => {
   const [bgImg, setBgImg] = useState(null);
 
   useEffect(() => {
     switch (title) {
-      case "Home":
-        setBgImg("https://picsum.photos/300/600?random=45");
-        break;
       case "About Us":
-        setBgImg("https://picsum.photos/300/600?random=4");
+        setBgImg(about);
         break;
       case "Work":
-        setBgImg("https://picsum.photos/300/600?random=49");
+        setBgImg(work);
         break;
       case "Contact":
-        setBgImg("https://picsum.photos/300/600?random=46");
+        setBgImg(contact);
         break;
       default:
         setBgImg("");

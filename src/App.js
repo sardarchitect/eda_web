@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 
 import { Nav } from "./components/nav/Nav";
 import { Footer } from "./components/Footer";
-import { About } from "./components/pages/About";
+import { About } from "./components/pages/About/About";
 import { Work } from "./components/pages/Work";
 import { Contact } from "./components/pages/Contact";
 // import { ProjectPage } from "./components/pages/ProjectPage";

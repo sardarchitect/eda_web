@@ -1,60 +1,59 @@
 /* FOOTER */
-footer{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top: solid 1px grey;
-    margin-top: 150px;
-    position: relative;
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: solid 1px grey;
+  margin-top: 150px;
+  position: relative;
 
-    .footer-nav {
-        display: flex;
-        justify-content: space-between;
-        a {
-            color: black !important;
-        }
-        div:not(:first-child){
-        margin-left: 60px;
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: black !important;
     }
-    } 
-     p {
-        margin-top: 10px;
+    div:not(:first-child) {
+      margin-left: 60px;
     }
-    .footer_contact {
-        position: absolute;
-        left: 100px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  .footer_contact {
+    position: absolute;
+    left: 100px;
+  }
+  .footer_social {
+    position: absolute;
+    right: 100px;
+    a {
+      color: #ce2b2c !important;
     }
-    .footer_social {
-        position: absolute;
-        right: 100px;
-        a{
-            color: #ce2b2c !important;
-        }
-    }
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    footer{
-        height: 300px;
-        .footer_contact{
-            margin-top: 25px;
-            position: relative;
-            left:0;
-            text-align:center;
-        }  
-        .footer_social{
-            margin-top: 25px;
-            position: relative;
-            left:0;
-            width: 75px;
-            display: flex;
-            justify-content: space-between;
-        }
-        p {
-            margin-top: 40px;
-        }
+  footer {
+    height: 300px;
+    .footer_contact {
+      margin-top: 25px;
+      position: relative;
+      left: 0;
+      text-align: center;
     }
-
+    .footer_social {
+      margin-top: 25px;
+      position: relative;
+      left: 0;
+      width: 75px;
+      display: flex;
+      justify-content: space-between;
+    }
+    p {
+      margin-top: 40px;
+    }
+  }
 }

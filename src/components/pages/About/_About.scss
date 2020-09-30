@@ -1,0 +1,39 @@
+/* PAGE: ABOUT */
+.about-wrapper{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.about-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.about-staff-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    max-width: 75%;
+    margin: 0 auto
+}
+.staff-item-left{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+.staff-item-right{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+.staff-photo {
+    height: 200px; width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.staff-photo img{
+    width: 100%;
+}
+.staff-description{
+    justify-self: center;
+    align-self: center;
+}
